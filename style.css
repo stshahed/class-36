@@ -1,0 +1,106 @@
+/* sign up */
+.sign-up{
+    background: #f0f3f6;
+}
+.sign-up-left {
+    box-shadow: 0px 0px 10px 0px #111;
+    padding: 58px 45px;
+    border-radius: 5px;
+}
+.sign-up-left h2{
+    color: #fff;
+}
+.sign-up-left p {
+    color: #fff;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.sign-up-left .email {
+    width: 400px;
+    border-radius: 23px;
+    display: inline;
+    border: 1px solid #fff;
+}
+.btn-sign-up-left{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-left: 15px;
+    font-weight: 600;
+
+}
+.btn-sign-up-left:hover{
+    background: #fff;
+    color: #0d6efd;
+}
+.sign-up-right {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #111;
+}
+.sign-up-right h2 {
+    font-size: 22px;
+}
+.sign-up-right p {
+    color: gray;
+    padding: 20px 0;
+    font-size: 16px;
+}
+.btn-sign-up-right {
+    text-decoration: none;
+    background: #0d6efd;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-bottom: -5px;
+    display: inline-block;
+}
+.btn-sign-up-right:hover{
+    background: red;
+    color: #fff;
+}
+
+/* awesome-clients */
+.awesome-clients-left {
+    padding-right: 101px;
+}
+.awesome-clients-left h5 {
+    color: #3763eb;
+    font-size: 19px;
+}
+.awesome-clients-left h2 {
+    font-size: 32px;
+    padding-bottom: 29px;
+    position: relative;
+}
+.awesome-clients-left h2::after {
+    content: "";
+    position: absolute;
+    top: 133px;
+    left: 0;
+    width: 51px;
+    height: 2px;
+    background: #609be7;
+}
+.awesome-clients-left p {
+    color: gray;
+}
+
+.clients-img{
+}
+.clients-img img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    opacity: .4;
+    transition: .3s;
+}
+.clients-img:hover img{
+    opacity: 1;
+}
+.clients-img:hover{
+    background: #d9ebff;
+}
